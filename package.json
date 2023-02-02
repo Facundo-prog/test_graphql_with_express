@@ -12,7 +12,8 @@
     "node": "18.x"
   },
   "scripts": {
-    "start": "cd api && npx prisma migrate deploy && yarn run start"
+    "start": "yarn --cwd api start",
+    "build": "yarn --cwd api build"
   },
   "author": "@jonalvarezz",
   "license": "MIT",
