@@ -11,7 +11,9 @@
   "engines": {
     "node": "18.x"
   },
-  "scripts": {},
+  "scripts": {
+    "start": "node dist/api"
+  },
   "author": "@jonalvarezz",
   "license": "MIT",
   "prettier": {
