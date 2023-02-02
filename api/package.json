@@ -5,7 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "prisma generate && yarn clean && tsc --build && yarn copyfiles",
+    "build": "npx prisma generate && yarn clean && tsc --build && yarn copyfiles",
     "start": "npx prisma migrate deploy && node ../dist/api",
     "dev": "nodemon index.ts",
     "test": "jest src",

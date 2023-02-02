@@ -30,7 +30,7 @@ model Attributes {
   hardiness   String?
   taste       String?
   avocado     Avocado @relation(fields: [avocadoId], references: [id])
-  avocadoId   Int
+  avocadoId   Int @unique
 }
 
 model User {
