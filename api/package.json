@@ -34,7 +34,7 @@
     "easygraphql-tester": "^6.0.1",
     "graphql-tag": "^2.12.6",
     "jest": "^27.0.x",
-    "jest-mock-extended": "^2.0.4",
+    "jest-mock-extended": "^3.0.3",
     "prisma": "^3.1.1",
     "rimraf": "^3.0.2",
     "ts-jest": "^27.0.7"
